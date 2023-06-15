@@ -7,8 +7,8 @@ autoscaling:
 fullnameOverride: ''
 image:
   pullPolicy: Always
-  repository: 'image-name'
-  tag: 'image-tag'
+  repository: 'docker.io'
+  tag: 'ggnsaminto/temperature-converter'
 imagePullSecrets: []
 ingress:
   annotations: {}
